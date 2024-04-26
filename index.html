@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather Box</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Oswald:wght@300&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav1">
+      <ul>
+        <li><img src="UYULogo.png" class="UYULogo"></img></li>
+        <li><a href="#ThisShouldGoToHomePage" class="Button">Home</a></li>
+        <li><a href="#ThisShouldGoToGameDesignsPage" class="Button">Game Designs</a></li>
+        <li><a href="#ThisShouldGoToOtherProjectsPage" class="Button">Other Projects</a></li>
+        <li><a style="padding-right: 0vw;" href="#ThisShouldGoToAboutMePage" class="Button">About Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="sidebar">
+    <a href="#top">Top</a>
+    <a href="#ThisShouldGoToSection1">Section1</a>
+    <a href="#ThisShouldGoToSection2">Section2</a>
+    <a href="#ThisShouldGoToSection3">Section3</a>
+    <a href="#ThisShouldGoToSection4">Section4</a>
+  </div>
+
+  </section>
+
+  <section id="Home" class="cover">
+
+    <div class="cover-content">
+
+      <h1 class="cover-title">
+        Weather Boxx
+      </h1>
+
+      <h2 class="cover-subtitle">
+        CIM383 Physical Computing Project 2 Life Hack
+      </h2>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="Content">
+    <div>
+      <h2 class="subheader">What can this Weather Box do?</h2>
+      <img class="imgM" alt="Screenshot of Intro" src="patterns.png">
+      <p class="imgNote">Pattern are created with generative AI in Adobe Illustrator</p>
+      <div class="subcontent">
+        <p>This weather box is designed to help you indentify the weather
+          and provide some emergency light in dark. It comes with a light sensor, on the one hand, it will detects the
+          weather based the light it received, on the other hand, it will turns the light on itself when the enviroment
+          gets too dark</p>
+
+
+        <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+      </div>    
+
+        <p class="subheader">How it works?</p>
+        <div class="subcontent">
+        <p>On the sides of Weather Box, there is one port on each side for button acess and wire connection. After you
+          plug in the cable, if you hear some noise from the motor, then it is ready. You can press the button from the
+          port on the other side to activate the Weather Box.</p>
+        </div>
+        <video controls class="vidPlayer">
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="subcontent">
+        <p>Once it is activated, the motor will spin to certain degree based on how much light it receives. Then you can
+          know the current weather condition from the display port on the top of the Weather Box.</p>
+        </div> 
+    </div>
+  </section>
+
+
+  <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+
+
+  <section class="Content">
+    <div>
+      <h2 class="subheader">Early Planning</h2>
+        <img class="imgMxl" alt="Table of Different Modes" src="earlyPlan.png"></img>
+        <p class="imgNote"> First Draft Side View</p>
+        <div class="subcontent">
+        <p>The Blue at upper left is the button to activate everything, the dark square with a stick is the motor, the
+          white square is the sideview of a roller, the red at upper right is a resistor which coordinates with how much
+          light it receives. Once I had this draft, I started measure the dimension of all the unit</p>
+        <img class="imgM" alt="measuring" src="measuring.png"></img>
+        <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+        </div>
+
+        <h2 class="subheader">Designing Models</h2>
+        <img class="imgMxl" alt="designing 3D Model" src="models.png">
+        <p class="imgNote">Here is a thumbnail of all the model I created for mainly holding all the unit. </p>
+    </div>
+  </section>
+
+  <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+
+  <section class="Content">
+
+    <h1 class="subheader">Completed Product</h1>
+    <div class="imgRow3">
+      <div class="imgColumn3">
+        <img src="assembledFront.png" alt="assembledFront.png" style="width:100%">
+      </div>
+      <div class="imgColumn3">
+        <img src="assembledTop.png" alt="assembledTop.png" style="width:100%">
+      </div>
+      <div class="imgColumn3">
+        <img src="assembledInside.png" alt="assembledInside.png" style="width:100%">
+      </div>
+    </div>
+    <p class="imgNote"> Front, Top,inside</p>
+
+  </section>
+  <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+
+  <section class="Content">
+
+    <h1 class="subheader">Issues and Solutions</h1>
+    <h2 class="subsubheader">Issue 1 : Too Large</h2>
+    <p class="subcontent">
+      The first draft had each part sitting in its own space which makes the whole weather box a 6 inch sub. It going to
+      takes hours to print all the holders, and rollers I need for the weather box. On the other hand, this structur
+      leaves to many empty space inside.
+    </p>
+    <img class="imgM" src="slimInside.png" alt="3 layers structure">
+    <h2 class="subsubheader">Solution : Weather Box Slim</h2>
+    <p class="subcontent">
+      Instead of having the button on top, it is now on the board. Instead of having breadboard and the circuit
+      playground side by side, I put the circuit playground on the board.
+    </p>
+
+
+
+    <h2 class="subsubheader">Issue 2 : Spaghetti</h2>
+    <div class="subcontent">
+    <p>
+      At first, I wanted 3d print out the box. After a few failure attempt due to "spaghetti", I noticed it is more
+      likely to have issues when printing surface.
+    </p>
+  </div>
+    <img class="imgM" alt="designing 3D Model" src="failed3Dprinting.png">
+
+    <h2 class="subsubheader">Solution : Use paperboards instend of 3D printing</h2>
+    <p class="subcontent">
+      How hard can a box be? Instead of 3D print out the whole box, I use cricut to cut out the paper boards for the
+      box. Only use 3D printer for the corners.
+    </p>
+  </section>
+
+  <hr style="margin:auto;width:50%;height:2px;color:#463f3a">
+
+  <h1 class="subheader">Download</h1>
+  <section class="download">
+    <a href="code.py" download="Code">Code File</a>
+  </section>
+
+  <section class="Contact">
+    <table class="Table">
+      <thead style="font-size:1.2vw;">
+        <tr>
+          <th><img src="UYULogo.png" class="UYULogo"></img></th>
+          <th> </th>
+          <th>Game Designs</th>
+          <th>Other Projects</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody style="font-size:1.5vw;">
+        <tr>
+          <td></td>
+          <td> </td>
+          <td><a href="#LinkToGDProject1" Class="Button">Timely Shot</a></td>
+          <td><a href="#LinkToPCC" Class="Button">Physical Computings</a></td>
+        </tr>
+
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td><a href="#LinkToGDProject2" Class="Button">Before the Rainstorm</a></td>
+          <td><a href="#LinkToVDC" Class="Button">Visual Designs</a></td>
+        </tr>
+
+        <tr>
+          <td> yxz1655@miami.edu</td>
+          <td> </td>
+          <td><a href="#LinkToGDProject3" Class="Button">Duckrossing</a></td>
+          <td><a href="#LinkToESP" Class="Button">Esports Podcasts</a></td>
+        </tr>
+
+        <tr>
+          <td> zhylouis0606@gmail.com</td>
+          <td> </td>
+          <td></td>
+          <td><a href="#LinkToVID" Class="Button">Motion Pictures</a></td>
+        </tr>
+
+
+      </tbody>
+    </table>
+  </section>
+</body>
+
+</html>
